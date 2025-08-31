@@ -99,7 +99,7 @@ Code provided for re-training best model on unseen dataset (T4) using 100 retain
 
 - Explore different subset sampling strategies (bias towards rare tags or low-performing labels).
 
-= Modify validation metrics.
+- Modify validation metrics.
 
 - Weighted loss functions (e.g., Loss_T2 = 1.2·Loss_T1 + Loss_T2).
 
