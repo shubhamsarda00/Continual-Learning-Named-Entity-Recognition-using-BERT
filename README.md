@@ -2,11 +2,11 @@
 ## Task Overview
 The task is a hands-on continual learning evaluation using the [**Facebook Clinical Trial**](https://github.com/facebookresearch/Clinical-Trial-Parser) dataset for Named Entity Recognition (NER). The goal is to train models sequentially across multiple datasets while avoiding catastrophic forgetting and improving knowledge transfer. Complete details can be found in "**Continual learning task.pdf**".
 
-**📂 Dataset**
+**Dataset**
 
 We focus on NER with entities such as **Treatment, Chronic Disease, Cancer, Allergy, Other**, etc. Three datasets (G1, G2, G3) are provided, defining three tasks (T1, T2, T3) with the same label set but different entities.
 
-**🏗️ Task Breakdown**
+**Task Breakdown**
 
 - Train sequentially:
 
